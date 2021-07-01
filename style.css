@@ -83,7 +83,7 @@ button {
 .about-text {
   width: 60%;
 }
-#about img {
+#illustration2 {
   width: 40%;
 }
 #about h3 {
@@ -94,6 +94,12 @@ button {
   color: hsl(170, 45%, 43%);
   margin: 0;
   text-decoration: underline;
+}
+#arrow {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  top: 3px;
 }
 #review {
   width: 360px;
@@ -219,7 +225,7 @@ footer a {
     padding: 25px;
   }
   .about-text,
-  #about img {
+  #illustration2 {
     width: 100%;
   }
   #about h3 {
