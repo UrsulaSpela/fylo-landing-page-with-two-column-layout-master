@@ -15,20 +15,25 @@ body {
 #main {
   width: 1440px;
   height: 2335px;
-  padding: 0 80px;
 }
 h1 {
   font-family: "Raleway", sans-serif;
   font-size: 40px;
   line-height: 60px;
+  margin-bottom: 25px;
 }
 h3 {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
+  margin-bottom: 25px;
 }
 /*------ HEADER ------*/
 header {
   color: hsl(243, 87%, 12%);
+  height: 955px;
+  background: url(images/bg-curve-desktop.svg) no-repeat;
+  background-position: 50% 100%;
+  padding: 0 80px;
 }
 #navbar {
   display: flex;
@@ -48,4 +53,53 @@ header section {
 header section div,
 header section img {
   width: 50%;
+}
+header section div {
+  padding: 70px 50px 0 0;
+}
+input {
+  width: 320px;
+  height: 45px;
+  border-radius: 3px;
+  border: 1px solid hsl(243, 87%, 12%);
+}
+button {
+  height: 45px;
+  width: 200px;
+  border: none;
+  border-radius: 3px;
+  background: hsl(224, 93%, 58%);
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+/*------ ABOUT -----*/
+#about {
+  background: hsl(240, 75%, 98%);
+  padding: 185px 80px;
+  display: flex;
+}
+.about-text {
+  width: 60%;
+}
+#about img {
+  width: 40%;
+}
+#about h3 {
+  padding-right: 200px;
+  font-size: 16px;
+}
+#about a {
+  color: hsl(170, 45%, 43%);
+  margin: 0;
+  text-decoration: underline;
+}
+#review {
+  width: 360px;
+  height: 220px;
+  margin-top: 40px;
+  background: white;
+  border-radius: 10px;
+  padding: 20px 30px;
 }
