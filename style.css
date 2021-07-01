@@ -208,6 +208,12 @@ footer a {
   h3 {
     font-size: 16px;
   }
+  header input {
+    margin-bottom: 10px;
+  }
+  header button {
+    width: 320px;
+  }
   #about {
     flex-direction: column-reverse;
     padding: 25px;
@@ -224,5 +230,37 @@ footer a {
   }
   #person img {
     width: 30px;
+  }
+  #early-access {
+    height: 345px;
+    flex-direction: column;
+    text-align: center;
+    padding: 25px;
+  }
+  #early-access div {
+    padding: 0;
+    width: 100%;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  #early-access input,
+  #early-access button {
+    width: 240px;
+  }
+  footer {
+    height: 683px;
+    flex-direction: column;
+    padding: 25px;
+  }
+  #contact {
+    top: 50px;
+  }
+  #social {
+    align-self: center;
   }
 }
