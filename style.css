@@ -146,5 +146,27 @@ h4 {
 footer {
   height: 390px;
   background: hsl(243, 87%, 12%);
+  display: flex;
   color: white;
+  justify-content: space-evenly;
+  padding: 180px 100px 0 80px;
+}
+footer a {
+  color: white;
+}
+#contact {
+  position: relative;
+  top: -75px;
+}
+#social {
+  display: flex;
+}
+.icon-container {
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 4px;
+  margin-right: 15px;
 }
